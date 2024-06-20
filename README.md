@@ -18,7 +18,7 @@ git clone https://github.com/karinjs/karin-plugin-template.git ./plugins/karin-p
 ## 安装依赖
 
 ```bash
-pnpm install --filter=karin-plugin-template
+pnpm install --filter=karin-plugin-xl
 ```
 
 
