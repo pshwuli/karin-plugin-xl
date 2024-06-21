@@ -10,7 +10,6 @@
     "yaml": "^2.1.3"
   },
   "imports": {
-    "#Karin": "./lib/imports/index.js",
-    "#template": "./lib/imports/template.js"
+    "#bili": "./apps/bilibili.js"
   }
 }
