@@ -1,7 +1,3 @@
-- fork 本仓库
-- 拉取fork后的仓库到本地
-- 修改 `package.json` 文件中的 `name` 和 `description` 字段
-- 将 `README.md` 文件中的内容替换为自己的插件说明。
 
 ## 克隆仓库
 
