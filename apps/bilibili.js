@@ -8,7 +8,8 @@ import plugin from '../../../lib/plugins/plugin.js'; // 确认路径并调整
 
 const card = true;
 const Referer = 'https://www.bilibili.com/';
-const Cookie = '';
+const cfg = Yaml.parse(fs.readFileSync(path.resolve(__dirname, '../config/config.yaml'), 'utf8'));
+const { Cookie } = cfg; // 从config/config.yaml中读取Cookie
 
 // 获取当前文件的目录路径
 const __filename = fileURLToPath(import.meta.url);
