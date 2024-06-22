@@ -8,8 +8,7 @@ import plugin from '../../../lib/plugins/plugin.js'; // 确认路径并调整
 
 const card = true;
 const Referer = 'https://www.bilibili.com/';
-const cfg = Yaml.parse(fs.readFileSync(path.resolve(__dirname, '../config/config.yaml'), 'utf8'));
-const { Cookie } = cfg; // 从config/config.yaml中读取Cookie
+const Cookie = 'buvid3=01C5C40F-AF4C-C134-D51F-279724076AD081177infoc; b_nut=100; _uuid=96F88812-C655-3101D-C3C2-762B571187A1085244infoc; bmg_af_switch=1; bmg_src_def_domain=i0.hdslb.com; enable_web_push=DISABLE; header_theme_version=CLOSE; DedeUserID=1940375566; DedeUserID__ckMd5=39c478350daabaab; buvid4=24469177-5E83-1DD0-5CAB-96CF92C4C79F56699-123102702-dhh8hAod5idhUnb5BiJu%2B1ffcWgM9iuVQt5IjxSPL8c8pURoLAPn0w%3D%3D; fingerprint=951a24e727924da4be4fd7837039481c; buvid_fp_plain=undefined; buvid_fp=4427447b1a7395864f3bb19e936cc25b; bsource=search_bing; SESSDATA=c32d3ddb%2C1734458434%2Cdd1f5%2A62CjBIwJjXBLHJZrrInSd84-Gt_EdLHtfUPwUxmzij0YGJOYevVUctjUkSuFoexMfAciISVlZ0Nl9VMmd5SU83bXlJbXpVS2k4cGIyS3Q0dFBpSDhTLWt3UWNIYkJRd1FFLXpDYW90QXAwYmRBLWx3aVFtRDJNWVJMNFNhX25MU24xTXIyeUs1T1h3IIEC; bili_jct=7e9f5a6391c93e57392c34641f436227; CURRENT_FNVAL=4048; sid=pu49maie; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTkxNjU2MzcsImlhdCI6MTcxODkwNjM3NywicGx0IjotMX0.xzpbjs5t2ul78qRHHcPX6jZMJ0-YY_97t_D6nThvwOI; bili_ticket_expires=1719165577;';
 
 // 获取当前文件的目录路径
 const __filename = fileURLToPath(import.meta.url);
