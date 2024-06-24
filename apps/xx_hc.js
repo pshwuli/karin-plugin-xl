@@ -21,7 +21,7 @@ export class CPUSTATE extends plugin {
                     fnc: 'getCPUSTATE'
                 },
                 {
-                    reg: '#清理视频缓存',
+                    reg: '#清理缓存',
                     fnc: 'cleancache'
                 }
             ]
@@ -117,7 +117,7 @@ export class CPUSTATE extends plugin {
 //请在框架目录下写一个 cleanCache.sh 
 //#!/bin/bash
 //if [ -d "./resources" ]; then
-//cd ./plugins/karin-plugin-xl/resources
+//cd ./data/karin-plugin-xl
 //    rm -f *
 //    echo "resources 文件夹中的所有文件已清理完毕。"
 //else
@@ -137,7 +137,7 @@ export class CPUSTATE extends plugin {
             console.log(sto);//sto才是真正的输出，要不要打印到控制台，由你自己啊
         })
 
-        await e.reply("结束清理");
+        await e.reply("ok");
     }
 
 
