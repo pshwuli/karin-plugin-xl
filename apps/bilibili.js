@@ -84,7 +84,7 @@ export class Bili_Down extends plugin {
     });
 
     const url = await res.json();
-    const _path = path.resolve(__dirname, `../../../resources/${Date.now()}`);
+    const _path = path.resolve(__dirname, `../resources/${Date.now()}`);
     const m4s = `${_path}.m4s`;
     const mp3 = `${_path}.mp3`;
     const mp4 = `${_path}.mp4`;
